@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="./css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="./css/main.css" media="screen">
+    <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <style>
+        h1:not(.u-title){
+            font-size: 25px !important;
+        }
+    </style>
+</head>
+
+<body class="">
+
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: var(--main-color);">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo_inlib.png" alt="" style="width: 150px;">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Вход</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Регистрация</a>
+                </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: var(--main-red);
+                background-color: transparent;
+                background-image: none;
+                border-color: var(--main-red);">Найти</button>
+              </form>
+            </div>
+            </div>    
+        </nav>
+    </header>
+    
+    <div class="body-login_page">
+        <h2>Вход в аккаунт или регистрация нового аккаунта</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Создать аккаунт</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-apple"></i></a>
+                </div>
+                <span>или пользуйтесь почту для регистрации</span>
+                <input type="text" placeholder="Имя" />
+                <input type="email" placeholder="Почта" />
+                <input type="password" placeholder="Пароль" />
+                <button>Создать</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Вход</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-apple"></i></a>
+                </div>
+                <span>или входите через аккаунт</span>
+                <input type="email" placeholder="Почта" />
+                <input type="password" placeholder="Пароль" />
+                <a href="#">Забыли пароль?</a>
+                <button>Вход</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>С возвращением!</h1>
+                    <p>Чтобы оставаться на связи с нами, пожалуйста, войдите в систему, указав свои персональные данные</p>
+                    <button class="ghost" id="signIn">Вход</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Создать новый аккаунт!</h1>
+                    <p>Введите свои личные данные и начните путешествие с нами</p>
+                    <button class="ghost" id="signUp">Создать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer py-3" id="sec-6795">
+        <div class="u-clearfix u-sheet u-sheet-1 d-flex align-items-center container">
+            <div class="col-8">
+                <h6 style="text-align: start;">Контакты</h6>
+                <p style="text-align: start;"><i class="fas fa-map-marked-alt mr-2"></i>Республика Узбекистан, г.
+                    Ташкент, А/Я 4464 100000</p>
+                <p style="text-align: start;"><i class="fas fa-address-book mr-2"></i>(+998) 990066110</p>
+                <p style="text-align: start;"><i class="fas fa-envelope mr-2"></i>info@inscience.uz</p>
+                <p style="text-align: start;">© Copyright 2022 InScience All Rights Reserved | Site created by me</p>
+            </div>
+
+            <div class="col-4">
+                <a href="#">
+                    <img src="./images/logo_inlib.png" alt="" class="w-100">
+                </a>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
+        });
+    </script>
+</body>
+
+</html>
