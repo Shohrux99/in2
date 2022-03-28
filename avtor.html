@@ -20,43 +20,35 @@
     <link rel="stylesheet" href="./css/slick.css">
 </head>
 
-<body>
+<body class="u-body u-xl-mode">
 
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: var(--main-color);">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/logo_inlib.png" alt="" style="width: 150px;">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Вход</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Регистрация</a>
-                        </li>
-
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: var(--main-red);
-                background-color: transparent;
-                background-image: none;
-                border-color: var(--main-red);">Найти</button>
-                    </form>
-                </div>
+    <header class="u-clearfix u-header u-header" id="sec-0a71" style="position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="header">
+          <div class="header-right d-flex justify-content-between w-100">
+            <div class="d-flex">
+              <a href="#">Журналы</a>
+              <a href="#">Авторы</a>
+              <a href="#">Университеты</a>
+              <a href="#">Статьи</a>
+              <a href="#">О нас</a>
+              <a href="#">Вход (Регистрация)</a>
+              <a href="#carousel_74c2" type="button" class="btn btn-danger ml-3">Поддержать проект</a>
             </div>
-        </nav>
+            <div class="d-flex">
+              <a href="#"><img src="./images/ico-lang-en.png" alt=""></a>
+              <a href="#"><img src="./images/ico-lang-ru.png" alt=""></a>
+              <a href="#"><img src="./images/ico-lang-uz.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- About me -->
-    <section class="fh5co-about-me">
+    <section class="fh5co-about-me" style="padding-top: 100px;">
         <div class="about-me-inner site-container">
             <article class="portfolio-wrapper">
                 <div class="portfolio__img">
@@ -64,21 +56,16 @@
                 </div>
                 <div class="portfolio__bottom">
                     <div class="portfolio__name m-0">
-                        <h2 class="universal-h2">Jhone Smith</h2>
+                        <h2 class="universal-h2">Жасур Ризаев</h2>
                     </div>
+
                     <div class="portfolio-metric">
                         <div class="pop-stats_metric d-flex mb-3">
-                            <div class="w-50">
-                                <p class="m-0"><i class="fas fa-eye"></i> <span>22</span></p>
-                                <p class="m-0"><i class="fas fa-download"></i> <span>22</span></p>
-                            </div>
-                            <div class="w-50">
-                                <p class="m-0">gscore index - 15</p>
-                                <p class="m-0">H-index - 5</p>
-                            </div>
+                            <p class="m-0 p-0">Самаркандский государственный медицинский институт
+                                д.м.н., профессор, ректор</p>
                         </div>
-
                     </div>
+
                     <div class="social-icons">
                         <a href="#" target="_blank">
                             <i class="fab fa-facebook"></i>
@@ -99,13 +86,8 @@
             <div class="about-me__text">
                 <div class="about-me-slider">
                     <div class="about-me-single-slide">
-                        <h2 class="universal-h2 universal-h2-bckg">About me</h2>
-                        <p>He has work appearing or forthcoming in over a dozen venues, including Buzzy
-                            Mag, The Spirit of Poe, and the British Fantasy Society journal Dark Horizons. He is also
-                            CEO of a company, specializing in custom book publishing and social media marketing
-                            services, have created a community for authors to learn and connect.He has work appearing or
-                            forthcoming in over a dozen venues, including Buzzy Mag, The Spirit of Poe, and have created
-                            a community for authors to learn and connect.</p>
+                        <h2 class="universal-h2 universal-h2-bckg">Обо мне</h2>
+                        <p>Ризаев родился 27 июня 1974 года в городе Ташкенте в семье трудящихся. 1991 году окончил с Золотой медалью среднюю школу № 254 Шайхонтохурского района города Ташкента. В 1996 году окончил Первый Ташкентский Государственный медицинский институт. С 1996 года работал врачом интерном в поликлинике и на кафедре ортопедической стоматологии Первого Ташкентского Государственного медицинского института. С 1998 года работал старшим лаборантом на кафедре терапевтической стоматологии Первого Ташкентского медицинского института[2], а 2000 по 2007 ассистентом. С 2005 по 2007 был председателем студенческого профсоюза Ташкентской медицинской академии. В 2006 году защитил кандидатскую диссертацию на тему «Клинико-функциональные показатели течения пародонтита и особенности лечения». С 2007 годы работал на кафедре «Терапевтической стоматологии» доцентом кафедры.</p>
                     </div>
                     <!-- <div class="about-me-single-slide">
                         <h2 class="universal-h2 universal-h2-bckg">Метрические информации</h2>
@@ -125,34 +107,47 @@
     <!-- Counter -->
     <div class="fh5co-counter counters">
         <div class="counter-inner site-container">
-            <div class="single-count">
+            <div class="single-count w-auto">
                 <span class="count" data-count="125">0</span>
+                <div class="single-count__text">
+                    <img src="./images/eye-3-24.png" alt="counter icon">
+                    <p>Просмотры</p>
+                </div>
+            </div>
+            <div class="single-count w-auto">
+                <span class="count" data-count="222">0</span>
+                <div class="single-count__text">
+                    <img src="./images/download-2-24.png" alt="counter icon">
+                    <p>Скачан</p>
+                </div>
+            </div>
+            <div class="single-count w-auto">
+                <span class="count" data-count="123">0</span>
+                <div class="single-count__text">
+                    <p>G-Score index</p>
+                </div>
+            </div>
+            <div class="single-count w-auto">
+                <span class="count" data-count="22">0</span>
+                <div class="single-count__text">
+                    <p>H-index</p>
+                </div>
+            </div>
+            <div class="single-count w-auto">
+                <span class="count" data-count="43">0</span>
                 <div class="single-count__text">
                     <img src="./images/counter-1.png" alt="counter icon">
                     <p>Книги</p>
                 </div>
             </div>
-            <div class="single-count">
+            <div class="single-count w-auto">
                 <span class="count" data-count="11">0</span>
                 <div class="single-count__text">
                     <img src="./images/counter-2.png" alt="counter icon">
                     <p>Статьи</p>
                 </div>
             </div>
-            <div class="single-count">
-                <span class="count" data-count="87">0</span>
-                <div class="single-count__text">
-                    <img src="./images/counter-3.png" alt="counter icon">
-                    <p>журналы</p>
-                </div>
-            </div>
-            <div class="single-count">
-                <span class="count" data-count="24">0</span>
-                <div class="single-count__text">
-                    <img src="./images/counter-4.png" alt="counter icon">
-                    <p>Конференции</p>
-                </div>
-            </div>
+        
         </div>
     </div>
     <!-- Counter -->
@@ -165,7 +160,7 @@
                 line-height: 1.1;
                 margin-top: 20px;
                 margin-bottom: 20px;
-                text-align: center;">Книги</h4>
+                text-align: center;">Научные труды</h4>
             <!-- <div class="blog-slider blog-inner">
                     <div class="single-blog">
                         <div class="single-blog__img">

@@ -18,53 +18,47 @@
     <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="./css/slick.css">
+
 </head>
 
-<body>
+<body class="u-body u-xl-mode">
 
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: var(--main-color);">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./images/logo_inlib.png" alt="" style="width: 150px;">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Вход</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Регистрация</a>
-                        </li>
-
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Поиск..." aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: var(--main-red);
-                background-color: transparent;
-                background-image: none;
-                border-color: var(--main-red);">Найти</button>
-                    </form>
-                </div>
+    <header class="u-clearfix u-header u-header" id="sec-0a71" style="position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="header">
+          <div class="header-right d-flex justify-content-between w-100">
+            <div class="d-flex">
+              <a href="#">Журналы</a>
+              <a href="#">Авторы</a>
+              <a href="#">Университеты</a>
+              <a href="#">Статьи</a>
+              <a href="#">О нас</a>
+              <a href="#">Вход (Регистрация)</a>
+              <a href="#carousel_74c2" type="button" class="btn btn-danger ml-3">Поддержать проект</a>
             </div>
-        </nav>
+            <div class="d-flex">
+              <a href="#"><img src="./images/ico-lang-en.png" alt=""></a>
+              <a href="#"><img src="./images/ico-lang-ru.png" alt=""></a>
+              <a href="#"><img src="./images/ico-lang-uz.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- About me -->
-    <section class="fh5co-about-me">
+    <section class="fh5co-about-me" style="padding-top: 100px;">
         <div class="about-me-inner site-container">
             <article class="portfolio-wrapper">
                 <div class="portfolio__img">
-                    <img src="./images/tuit_slide_two.jpg" class="about-me__profile" alt="about me profile picture">
+                    <img src="./images/tuit_slide_two.png" class="about-me__profile" alt="about me profile picture">
                 </div>
-                <div class="portfolio__bottom">
+                <div class="portfolio__bottom p-0">
                     <div class="portfolio__name m-0">
-                        <h2 class="universal-h2" style="font-size: 25px;">Ташкентский университет информационных технологий</h2>
+                        <h2 class="universal-h2" style="font-size: 25px;">Филиал Российского экономического университета
+                            имени Г.В. Плеханова в г. Ташкенте</h2>
                     </div>
                     <div class="portfolio-metric">
                         <div class="pop-stats_metric d-flex mb-3">
@@ -99,18 +93,17 @@
             <div class="about-me__text">
                 <div class="about-me-slider">
                     <div class="about-me-single-slide">
-                        <h2 class="universal-h2 universal-h2-bckg">Об университете</h2>
-                        <p>Данный устав разработано на основе законов «Об образование» и «О национальной программе подготовке кадров» принятые 29 августа 1997 года, Указа Президента «О дальнейшем развитии компьютеризации и внедрении информационно-коммуникационных технологий» №УП-3080 от 30.05.2002г.</p>
+                        <h2 class="universal-h2 universal-h2-bckg">Об филиале</h2>
+                        <p>Филиал РЭУ им. Г.В. Плеханова в г. Ташкенте функционирует на рынке образовательных услуг
+                            Республики Узбекистан более 25 лет. Это - конкурентоспособное учебное заведение, известное
+                            своей славной историей и сильным профессорско-преподавательским коллективом. Выстроен
+                            триединый процесс образовательной и научной деятельности, социальной и воспитательной
+                            работы. РЭУ в г. Ташкенте видит своей главной задачей ответственную плодотворную работу по
+                            подготовке высококвалифицированных кадров в соответствии с общепризнанными международными
+                            требованиями, предъявляемыми к качеству высшего образования, целями и задачами Национальной
+                            программы по подготовке кадров Республики Узбекистан.</p>
                     </div>
-                    <!-- <div class="about-me-single-slide">
-                        <h2 class="universal-h2 universal-h2-bckg">Метрические информации</h2>
-                        <p>
-                            Общее количество просмотров работ автора <br>
-                            Общее количество скачиваний работ автора <br>
-                            gscore index - 15 <br>
-                            H-index - 5
-                        </p>
-                    </div> -->
+
                 </div>
             </div>
         </div>
@@ -154,255 +147,164 @@
     <!-- Blog -->
     <section class="fh5co-blog mb-0">
         <div class="site-container">
+            <div class="books-author d-flex justify-content-between">
 
-            <h4 style="font-weight: 400;
-                font-size: 2.25rem;
-                line-height: 1.1;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                text-align: center;">Книги</h4>
-            <!-- <div class="blog-slider blog-inner">
-                    <div class="single-blog">
-                        <div class="single-blog__img">
-                            <img src="./images/blog1.jpg" alt="blog image">
-                        </div>
-                        <div class="single-blog__text">
-                            <h4>Коронавирус ассоциированная нефропатия: современный взгляд на проблему коронавирус
-                                ассоциированная нефропатия: современный взгляд на проблему</h4>
-                        </div>
+                <div class="col-3">
+                    <h5>Тип ресурсв</h5>
+                    <div class="d-flex flex-column">
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Статьи 11201
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Учебники 93
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Журналы 856
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Материалы конференций  350
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Отчеты 24
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Диссертации 2
+                        </label>
                     </div>
-                    <div class="single-blog">
-                        <div class="single-blog__img">
-                            <img src="./images/blog1.jpg" alt="blog image">
-                        </div>
-                        <div class="single-blog__text">
-                            <h4>Коронавирус ассоциированная нефропатия: современный взгляд на проблему коронавирус
-                                ассоциированная нефропатия: современный взгляд на проблему</h4>
-                        </div>
+                    <hr>
+                    <h5>Язык</h5>
+                    <div class="d-flex flex-column">
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Английский
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Русский
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Узбекский
+                        </label>
                     </div>
-                    <div class="single-blog">
-                        <div class="single-blog__img">
-                            <img src="./images/blog1.jpg" alt="blog image">
-                        </div>
-                        <div class="single-blog__text">
-                            <h4>Коронавирус ассоциированная нефропатия: современный взгляд на проблему коронавирус
-                                ассоциированная нефропатия: современный взгляд на проблему</h4>
-                        </div>
-                    </div>
-                </div> -->
-
-
-            <div class="books-author d-flex justify-content-between flex-wrap">
-
-                <div class="card" style="width: 18rem; padding: 5px; background-color: var(--main-white);">
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="./images/journalThumbnail_ru_RU (1).png" class="card-img-top w-75" alt="...">
-                    </div>
-                    <div class="card-body" style="min-height: 160px">
-                        <p class="card-text m-0" style="height: 30px; font-size: 16px;">499.000 сум</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Заголовок книга</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Автор</p>
-                        <div class="w-100 d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn btn-outline-secondary">Купить</a>
-                            <a href="#" class=""><i class="fas fa-heart"></i></a>
-                        </div>
+                    <hr>
+                    <h5>Отрасль знаний</h5>
+                    <div class="d-flex flex-column">
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Искусство и гуманитарные науки
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Медицина
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Естественные науки
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Общественные науки
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Техника
+                        </label>
+                        <label class="d-flex align-items-center">
+                            <input type="checkbox" class="default__check">
+                            <span class="custom__check mr-2"></span>
+                            Биологические науки
+                        </label>
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem; padding: 5px; background-color: var(--main-white);">
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="./images/journalThumbnail_ru_RU (1).png" class="card-img-top w-75" alt="...">
-                    </div>
-                    <div class="card-body" style="min-height: 160px">
-                        <p class="card-text m-0" style="height: 30px; font-size: 16px;">499.000 сум</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Заголовок книга</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Автор</p>
-                        <div class="w-100 d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn btn-outline-secondary">Купить</a>
-                            <a href="#" class=""><i class="fas fa-heart"></i></a>
+                <div class="col-9 d-flex flex-column" style="height: max-content;">
+                    <div class="d-flex mb-3">
+                        <div class="col-3">
+                            <img src="./images/journalThumbnail_ru_RU.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-9">
+                            <a href="#" class="kfmerkm">Журнал гепато-гастроэнтерологических исследований</a>
+                            <p class="m-0 fz-18 mt-3 mb-2">Самаркандский государственный медицинский институт</p>
+                            <p class="m-0 fz-17 text-justify">Оригинальные исследования, клинические наблюдения, обзоры литературы представляют новейшие достижения гастроэнтерологии и практический опыт диагностики и лечения заболеваний желудочно-кишечного тракта, печени и поджелудочной железы терапевтического и хирургического профиля.</p>
+                            
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="m-0 fz-16"><i class="fas fa-book mr-2"></i>Гастроэнтерология и гепатология</p>
+                                <a href="#" class="btn btn-outline-secondary">Купить</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="card" style="width: 18rem; padding: 5px; background-color: var(--main-white);">
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="./images/journalThumbnail_ru_RU (1).png" class="card-img-top w-75" alt="...">
+                    <div class="d-flex">
+                        <div class="col-3 mb-3">
+                            <img src="./images/journalThumbnail_ru_RU.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-9">
+                            <a href="#" class="kfmerkm">Журнал гепато-гастроэнтерологических исследований</a>
+                            <p class="m-0 fz-18 mt-3 mb-2">Самаркандский государственный медицинский институт</p>
+                            <p class="m-0 fz-17 text-justify">Оригинальные исследования, клинические наблюдения, обзоры литературы представляют новейшие достижения гастроэнтерологии и практический опыт диагностики и лечения заболеваний желудочно-кишечного тракта, печени и поджелудочной железы терапевтического и хирургического профиля.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="m-0 fz-16"><i class="fas fa-book mr-2"></i>Гастроэнтерология и гепатология</p>
+                                <a href="#" class="btn btn-outline-secondary">Купить</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-body" style="min-height: 160px">
-                        <p class="card-text m-0" style="height: 30px; font-size: 16px;">499.000 сум</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Заголовок книга</p>
-                        <p class="card-text m-0" style="height: 40px; font-size: 16px;">Автор</p>
-                        <div class="w-100 d-flex align-items-center justify-content-around">
-                            <a href="#" class="btn btn-outline-secondary">Купить</a>
-                            <a href="#" class=""><i class="fas fa-heart"></i></a>
+
+                    <div class="d-flex">
+                        <div class="col-3 mb-3">
+                            <img src="./images/journalThumbnail_ru_RU.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-9">
+                            <a href="#" class="kfmerkm">Журнал гепато-гастроэнтерологических исследований</a>
+                            <p class="m-0 fz-18 mt-3 mb-2">Самаркандский государственный медицинский институт</p>
+                            <p class="m-0 fz-17 text-justify">Оригинальные исследования, клинические наблюдения, обзоры литературы представляют новейшие достижения гастроэнтерологии и практический опыт диагностики и лечения заболеваний желудочно-кишечного тракта, печени и поджелудочной железы терапевтического и хирургического профиля.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="m-0 fz-16"><i class="fas fa-book mr-2"></i>Гастроэнтерология и гепатология</p>
+                                <a href="#" class="btn btn-outline-secondary">Купить</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="col-3 mb-3">
+                            <img src="./images/journalThumbnail_ru_RU.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-9">
+                            <a href="#" class="kfmerkm">Журнал гепато-гастроэнтерологических исследований</a>
+                            <p class="m-0 fz-18 mt-3 mb-2">Самаркандский государственный медицинский институт</p>
+                            <p class="m-0 fz-17 text-justify">Оригинальные исследования, клинические наблюдения, обзоры литературы представляют новейшие достижения гастроэнтерологии и практический опыт диагностики и лечения заболеваний желудочно-кишечного тракта, печени и поджелудочной железы терапевтического и хирургического профиля.</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="m-0 fz-16"><i class="fas fa-book mr-2"></i>Гастроэнтерология и гепатология</p>
+                                <a href="#" class="btn btn-outline-secondary">Купить</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-
-
         </div>
     </section>
     <!-- Blog end -->
-    <!-- books -->
-    <section class="testimonials jurnal-page m-0" style="background-color: #ebebeb; margin-top: 50px !important;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 class="universal-h2 universal-h2-bckg">Журналы</h2>
-                    </div>
-                </div>
-
-                <div>
-                    <ul class="list">
-                        <li><a href="/article/n/hartiya-shanhayskoy-organizatsii-sotrudnichestva-kompas-organizatsii">
-                                <div class="title">Хартия Шанхайской организации сотрудничества - компас организации
-                                </div><span>2017 / Алимов Рашид</span>
-                            </a></li>
-                        <li><a href="/article/n/donald-tramp-i-perspektivy-severoatlanticheskogo-alyansa">
-                                <div class="title">Дональд Трамп и перспективы Североатлантического альянса</div>
-                                <span>2017 / Прокошев Сергей Владимирович</span>
-                            </a></li>
-                        <li><a href="/article/n/rossiysko-turetskie-protivorechiya-na-blizhnem-vostoke">
-                                <div class="title">Российско-турецкие противоречия на Ближнем Востоке</div><span>2017 /
-                                    Бдоян Давид Гургенович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/pravovoe-pole-kommunikativnoy-integratsii-evraziyskogo-ekonomicheskogo-soyuza-opyt-evropeyskogo-soyuza">
-                                <div class="title">Правовое поле коммуникативной интеграции евразийского экономического
-                                    союза. Опыт европейского союза</div><span>2017 / Венидиктов Сергей Викторович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/evraziyskiy-regionalizm-v-zapadnoy-teorii-mezhdunarodnyh-otnosheniy-vzglyad-iz-kitaya">
-                                <div class="title">Евразийский регионализм в западной теории международных отношений.
-                                    Взгляд из Китая</div><span>2017 / Цинсун Вань</span>
-                            </a></li>
-                        <li><a href="/article/n/novye-gumanitarnye-vyzovy-evropy-i-obscheevropeyskoe-edinstvo">
-                                <div class="title">Новые гуманитарные вызовы Европы и общеевропейское единство</div>
-                                <span>2017 / Хмель Вадим Михайлович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/terrorizm-gibridnye-voyny-i-evropeyskie-tsennosti-otnosheniya-turtsii-i-germanii-posle-arabskoy-vesny">
-                                <div class="title">Терроризм, гибридные войны и европейские ценности. Отношения Турции и
-                                    Германии после «Арабской весны»</div><span>2017 / Джуркович Миша</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/migratsionnyy-krizis-masshtabnaya-problema-dlya-starogo-sveta-osobennosti-politiki-slovatskoy-respubliki-i-cheshskoy-respubliki">
-                                <div class="title">Миграционный кризис - масштабная проблема для старого света.
-                                    Особенности политики Словацкой Республики и Чешской Республики</div><span>2017 /
-                                    Гопта Иво</span>
-                            </a></li>
-                        <li><a href="/article/n/sotsiokulturnye-osobennosti-migratsionnoy-politiki-velikobritanii">
-                                <div class="title">Социокультурные особенности миграционной политики Великобритании
-                                </div><span>2017 / Расуева Зарина Александровна</span>
-                            </a></li>
-                        <li><a href="/article/n/velikaya-otechestvennaya-voyna-v-vospriyatii-molodyozhi-rossii">
-                                <div class="title">Великая Отечественная война в восприятии молодёжи России</div>
-                                <span>2017 / Устинкин Сергей Васильевич</span>
-                            </a></li>
-                        <li><a href="/article/n/ekologicheskie-problemy-rossii">
-                                <div class="title">Экологические проблемы России</div><span>2017 / Майорова Елена
-                                    Ивановна</span>
-                            </a></li>
-                    </ul>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- books end -->
-
-    <!-- konferens -->
-    <section class="testimonials jurnal-page m-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 class="universal-h2 universal-h2-bckg">Конференции</h2>
-                    </div>
-                </div>
-
-                <div>
-                    <ul class="list">
-                        <li><a href="/article/n/hartiya-shanhayskoy-organizatsii-sotrudnichestva-kompas-organizatsii">
-                                <div class="title">Хартия Шанхайской организации сотрудничества - компас организации
-                                </div><span>2017 / Алимов Рашид</span>
-                            </a></li>
-                        <li><a href="/article/n/donald-tramp-i-perspektivy-severoatlanticheskogo-alyansa">
-                                <div class="title">Дональд Трамп и перспективы Североатлантического альянса</div>
-                                <span>2017 / Прокошев Сергей Владимирович</span>
-                            </a></li>
-                        <li><a href="/article/n/rossiysko-turetskie-protivorechiya-na-blizhnem-vostoke">
-                                <div class="title">Российско-турецкие противоречия на Ближнем Востоке</div><span>2017 /
-                                    Бдоян Давид Гургенович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/pravovoe-pole-kommunikativnoy-integratsii-evraziyskogo-ekonomicheskogo-soyuza-opyt-evropeyskogo-soyuza">
-                                <div class="title">Правовое поле коммуникативной интеграции евразийского экономического
-                                    союза. Опыт европейского союза</div><span>2017 / Венидиктов Сергей Викторович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/evraziyskiy-regionalizm-v-zapadnoy-teorii-mezhdunarodnyh-otnosheniy-vzglyad-iz-kitaya">
-                                <div class="title">Евразийский регионализм в западной теории международных отношений.
-                                    Взгляд из Китая</div><span>2017 / Цинсун Вань</span>
-                            </a></li>
-                        <li><a href="/article/n/novye-gumanitarnye-vyzovy-evropy-i-obscheevropeyskoe-edinstvo">
-                                <div class="title">Новые гуманитарные вызовы Европы и общеевропейское единство</div>
-                                <span>2017 / Хмель Вадим Михайлович</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/terrorizm-gibridnye-voyny-i-evropeyskie-tsennosti-otnosheniya-turtsii-i-germanii-posle-arabskoy-vesny">
-                                <div class="title">Терроризм, гибридные войны и европейские ценности. Отношения Турции и
-                                    Германии после «Арабской весны»</div><span>2017 / Джуркович Миша</span>
-                            </a></li>
-                        <li><a
-                                href="/article/n/migratsionnyy-krizis-masshtabnaya-problema-dlya-starogo-sveta-osobennosti-politiki-slovatskoy-respubliki-i-cheshskoy-respubliki">
-                                <div class="title">Миграционный кризис - масштабная проблема для старого света.
-                                    Особенности политики Словацкой Республики и Чешской Республики</div><span>2017 /
-                                    Гопта Иво</span>
-                            </a></li>
-                        <li><a href="/article/n/sotsiokulturnye-osobennosti-migratsionnoy-politiki-velikobritanii">
-                                <div class="title">Социокультурные особенности миграционной политики Великобритании
-                                </div><span>2017 / Расуева Зарина Александровна</span>
-                            </a></li>
-                        <li><a href="/article/n/velikaya-otechestvennaya-voyna-v-vospriyatii-molodyozhi-rossii">
-                                <div class="title">Великая Отечественная война в восприятии молодёжи России</div>
-                                <span>2017 / Устинкин Сергей Васильевич</span>
-                            </a></li>
-                        <li><a href="/article/n/ekologicheskie-problemy-rossii">
-                                <div class="title">Экологические проблемы России</div><span>2017 / Майорова Елена
-                                    Ивановна</span>
-                            </a></li>
-                    </ul>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!-- konferens end -->
-
-
-    <!-- Social -->
-    <!-- <section class="fh5co-social">
-        <div class="site-container">
-            <div class="social">
-                <h5>Подпишитесь на автора!</h5>
-                <div class="social-icons">
-                    <a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-                    <a href="#" target="_blank"><img src="./images/social-pinterest.png" alt="social icon"></a>
-                    <a href="#" target="_blank"><img src="./images/social-youtube.png" alt="social icon"></a>
-                    <a href="#" target="_blank"><img src="./images/social-twitter.png" alt="social icon"></a>
-                </div>
-                <h5>Соц.сети автора</h5>
-            </div>
-        </div>
-    </section> -->
-    <!-- Social -->
-
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer py-3" id="sec-6795">
         <div class="u-clearfix u-sheet u-sheet-1 d-flex align-items-center container">
             <div class="col-8">
@@ -431,6 +333,8 @@
     <script type="text/javascript" src="./js/nicepage.js"></script>
     <script src="./vendor/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
     <script src="./js/slick.min.js"></script>
+
+
     <script>
         $(document).ready(function () {
 
